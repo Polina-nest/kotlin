@@ -62,8 +62,7 @@ class MainActivity : AppCompatActivity() {
     private fun saveImageToInternalStorage(responseBody: ResponseBody) {
         val file = File(filesDir, "downloaded_image.jpg")
         try {
-            throw IOException("Искусственная ошибка сохранения изображения")
-
+        
             FileOutputStream(file).use { outputStream ->
                 outputStream.write(responseBody.bytes())
             }
