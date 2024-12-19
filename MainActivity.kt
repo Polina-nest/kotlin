@@ -1,3 +1,8 @@
+/* Он наследует ComponentActivity и переопределяет метод onCreate, чтобы установить содержимое приложения,
+вызывая функцию setContent, которая инициализирует пользовательский интерфейс с помощью функции ImageDownloaderApp.
+
+*/
+
 package com.example.imagedownloader
 
 import android.os.Bundle
