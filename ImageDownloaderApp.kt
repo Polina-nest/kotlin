@@ -1,5 +1,11 @@
-package com.example.imagedownloader
+/*
+Он использует Column для вертикального размещения элементов.
+Содержит OutlinedTextField для ввода URL изображения и кнопку для его загрузки.
+Используется LazyColumn, чтобы отображать список загруженных изображений, где каждое изображение обернуто в Card для лучшего визуального представления.
+Вся логика загрузки изображений делегируется ViewModel.
+*/
 
+package com.example.imagedownloader
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.outlinedTextField
